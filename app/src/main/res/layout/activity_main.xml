@@ -12,31 +12,48 @@
         android:onClick="load"
         android:text="Load" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Load Image Directly" />
+    <FrameLayout style="@style/FrameLayouStyle">
 
-    <ImageView
-        android:id="@+id/ivOrigin"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="fitCenter"
-        tools:src="@drawable/doge" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Load Image with Glide" />
+        <ImageView
+            android:id="@+id/ivOrigin1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/doge" />
 
-    <ImageView
-        android:id="@+id/ivGlide"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:scaleType="fitCenter"
-        tools:src="@drawable/doge" />
+        <TextView
+            style="@style/TextStyle"
+            android:text="Load Image Directly" />
+
+    </FrameLayout>
+
+    <FrameLayout style="@style/FrameLayouStyle">
+
+        <ImageView
+            android:id="@+id/ivGlide"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/doge" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="Load Image with Glide" />
+
+    </FrameLayout>
+
+    <FrameLayout style="@style/FrameLayouStyle">
+
+        <ImageView
+            android:id="@+id/ivOrigin2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/doge" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="Load Image Directly" />
+
+    </FrameLayout>
 
 
 </LinearLayout>
