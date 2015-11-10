@@ -15,7 +15,7 @@
     <FrameLayout style="@style/FrameLayouStyle">
 
 
-        <ImageView
+        <com.licheedev.glideissue.ImageView
             android:id="@+id/ivOrigin1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -29,7 +29,7 @@
 
     <FrameLayout style="@style/FrameLayouStyle">
 
-        <ImageView
+        <com.licheedev.glideissue.ImageView
             android:id="@+id/ivGlide"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -43,7 +43,7 @@
 
     <FrameLayout style="@style/FrameLayouStyle">
 
-        <ImageView
+        <com.licheedev.glideissue.ImageView
             android:id="@+id/ivOrigin2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
